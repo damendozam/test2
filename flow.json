@@ -24,6 +24,14 @@
         "env": []
     },
     {
+        "id": "39e044ece65a139a",
+        "type": "tab",
+        "label": "Flow 3",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "176a5c02fe622c64",
         "type": "inject",
         "z": "a74b354b0e066019",
@@ -144,5 +152,49 @@
         "x": 690,
         "y": 320,
         "wires": []
+    },
+    {
+        "id": "8de9f5bc8d467a32",
+        "type": "link in",
+        "z": "39e044ece65a139a",
+        "name": "",
+        "links": [],
+        "x": 185,
+        "y": 240,
+        "wires": [
+            [
+                "2520aa527920c825"
+            ]
+        ]
+    },
+    {
+        "id": "8c03bc0d1fb9a8da",
+        "type": "link out",
+        "z": "39e044ece65a139a",
+        "name": "",
+        "mode": "link",
+        "links": [],
+        "x": 445,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "2520aa527920c825",
+        "type": "function",
+        "z": "39e044ece65a139a",
+        "name": "",
+        "func": "\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 320,
+        "y": 240,
+        "wires": [
+            [
+                "8c03bc0d1fb9a8da"
+            ]
+        ]
     }
 ]
