@@ -32,6 +32,14 @@
         "env": []
     },
     {
+        "id": "8b8e9ea2ddc60c94",
+        "type": "tab",
+        "label": "Flow 7",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
         "id": "176a5c02fe622c64",
         "type": "inject",
         "z": "a74b354b0e066019",
@@ -210,5 +218,48 @@
                 "8c03bc0d1fb9a8da"
             ]
         ]
+    },
+    {
+        "id": "1574e1d5f332f2bf",
+        "type": "inject",
+        "z": "8b8e9ea2ddc60c94",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 320,
+        "y": 120,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c428384092b6b7fe",
+        "type": "debug",
+        "z": "8b8e9ea2ddc60c94",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 430,
+        "y": 240,
+        "wires": []
     }
 ]
